@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family:"Tahoma, Verdana, sans-serif";
+  }
+
+.HeadingClass {
+    border-style: none;
+    text-align:center;
+    text-shadow: 2px 2px 5px red;
+    font-family:"Verdana, sans-serif";
+}
+
+img {
+    border:none;
+    border-radius: 30%;
+    padding: 5px;
+    max-width: 10%;
+    height: 10%;
+  }
+.UnlineClass
+{
+        border-bottom: 6px solid red;
+}
+
+.container {
+    padding: 20px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #5445a0;
+    font-style: italic;
+    
+  }
+  
+  .container {
+    background-color:honeydew;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   
+  @media (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+
+  }
